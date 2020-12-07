@@ -1,0 +1,4 @@
+﻿  cop3530project3.cpp
+C:\Users\nomnompineapples\source\repos\cop3530project3\cop3530project3.cpp(50,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\nomnompineapples\source\repos\cop3530project3\cop3530project3.cpp(178,27): warning C4018: '<': signed/unsigned mismatch
+  cop3530project3.vcxproj -> C:\Users\nomnompineapples\source\repos\cop3530project3\Debug\cop3530project3.exe

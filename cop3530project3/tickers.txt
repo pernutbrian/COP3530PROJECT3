@@ -1,0 +1,40 @@
+Caterpillar,CAT
+Chevron,CVX
+IBM,IBM
+DOW,DOW
+Visa,V
+Salesforce,CRM
+Honeywell,HON
+Coca-Cola,KO
+3M,MMM
+American Express,AXP
+Amgen,AMGN
+Apple,AAPl
+Boeing,BA
+Cisco,CSCO
+Goldman Sachs,GS
+Home Depot,HD
+Intel,INTC
+Johnson & Johnson,JNJ
+JPMorgan Chase,JPM
+McDonald's,MCD
+Merck,MRK
+Microsoft,MSFT
+Nike,NKE
+Proctor & Gamble,PG
+Travelers,TRV
+UnitedHealth Group,UNH
+Verizon,VZ
+Walgreens,WAL
+Walmart,WMT
+Walt Disney,DIS
+
+
+
+
+
+
+
+
+
+
