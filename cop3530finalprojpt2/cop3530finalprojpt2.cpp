@@ -14,7 +14,7 @@ using namespace std::chrono;
 class MoneyBot {
 
 
-    //this unordered map takes in a the daily percentage change of a stock as a float (we round to one digit past the decimal)
+    //this priority queue takes in a the daily percentage change of a stock as a float (we round to one digit past the decimal)
     priority_queue<float> plusMinusData;
 
     // [0] keeps count of the number of positive days 
@@ -103,12 +103,6 @@ void MoneyBot::doWeBuy() {
 
 void MoneyBot::debug() {
 
-    /*for (auto it = plusMinusData.begin(); it != plusMinusData.end(); it++) {
-        cout << it->first << " : " << it->second << endl;
-    }
-
-    cout << endl;*/
-
     for (int i = 0; i < 3; i++) {
 
         if (i == 0) {
@@ -146,7 +140,8 @@ int main() {
     cout << "----------------------------------------------" << endl;
     cout << "****Please select one of the TICKERS below****" << endl;
     cout << "----------------------------------------------" << endl << endl;
-
+    
+    //load tickers
     while (tickerFile.good()) {
 
         getline(tickerFile, stockName, ',');
@@ -195,7 +190,6 @@ int main() {
     cout << "You chose, " << stocks[userInput] << endl << endl;
 
     ifstream myFile(temp);
-    //MCD has a crazy final sumDailyplusminus
 
     string date;
     string open;
@@ -209,7 +203,8 @@ int main() {
 
     //to get the time it takes to run program
     auto start = high_resolution_clock::now();
-
+    
+    //read file date
     index = 0;
     while (myFile.good()) {
 
